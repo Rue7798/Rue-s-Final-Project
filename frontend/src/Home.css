@@ -1,0 +1,71 @@
+/* Add Designs for the Home Page Components */
+.all {
+    font-family: cursive;
+    color: navy;
+    background-color: rgb(245, 245, 219, );
+}
+
+
+.bg_image {
+    background-image: url('/public/ceramic.jpg');
+    background-size: cover;
+    height: 110vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: navy;
+    animation: media ease-in-out 30s infinite;
+}
+
+/*Add changing gallery */
+@keyframes media {
+    0% {
+        background-image: url("/public/ceramic.jpg");
+    }
+
+    33% {
+        background-image: url("/public/StudioPottery.jpeg");
+    }
+
+    66% {
+        background-image: url("/public/CERAMICSSTUDIO.jpeg");
+    }
+
+    100% {
+        background-image: url("/public/bowl.JPEG");
+    }
+}
+
+
+h1 {
+    margin-top: 65px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(245, 245, 219, 0.5);
+}
+
+h2 {
+    margin-top: 520px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(245, 245, 219, 0.5);
+    font: lighter;
+}
+
+.Courses {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Courses img {
+    background-color: rgb(245, 245, 219, 0.9);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    width: 200px;
+    height: 150px;
+}
+
+.Courses img:hover {
+    outline: beige;
+    opacity: 0.2;
+}

@@ -1,0 +1,50 @@
+/* Design the Navagation Bar and the Logo */
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: beige;
+  height: 100px;
+  font: larger;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+
+}
+
+.NavBar .navLogo {
+  width: 100px;
+  height: 100px;
+
+}
+
+.NavBar .navLogo img {
+  width: 100px;
+  height: 100px;
+
+}
+
+
+.NavBar .NavItemsUL {
+  list-style: none;
+  display: flex;
+
+}
+
+
+.NavBar .NavItemsUL li {
+  margin-right: 10px;
+
+}
+
+
+.NavBar .NavItemsUL li a {
+  text-decoration: none;
+  color: navy;
+  font-size: larger;
+
+}
+
+.NavBar .NavItemsUL li:not(:last-child) {
+  border-right: solid 2px rgb(233, 214, 152);
+  padding-right: 10px;
+}

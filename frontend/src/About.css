@@ -1,0 +1,30 @@
+/* Add designs to the About Paragraph */
+.About {
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    color: navy;
+    background-color: rgb(245, 245, 219, 0.4);
+    font-size: larger;
+    font: bolder;
+    text-orientation: upright;
+    word-spacing: 2px;
+    line-height: 40px;
+
+}
+
+/* Add Image to the About Page */
+.Bg_image {
+    background-image: url('/public/wheel.JPEG');
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(20px+ 2vmin);
+    text-decoration: dotted;
+    color: navy;
+    font-weight: bold;
+}

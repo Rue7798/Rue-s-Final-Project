@@ -1,0 +1,38 @@
+/* Add design for the Footer */
+
+.footerAll {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: beige;
+}
+
+.footerAll .navLogo img {
+  width: 100px;
+}
+
+
+.footerAll .FooterItemsUl {
+  list-style: none;
+  display: flex;
+}
+
+
+.footerAll .FooterItemsUl li {
+  margin-right: 10px;
+}
+
+
+.footerAll .FooterItemsUl li a {
+  text-decoration: none;
+  color: navy;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+
+}
+
+.footerAll .FooterItemsUl li:not(:last-child) {
+  border-right: solid 2px rgb(233, 214, 152);
+  padding-right: 10px;
+}

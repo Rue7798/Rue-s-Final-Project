@@ -1,0 +1,59 @@
+/* Design the LogIn Page Components */
+.All {
+    background-image: url('/public/AboutBackground.JPEG');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.LogIn {
+    width: 300px;
+    padding: 30px;
+    padding-top: 50px;
+    background-color: rgb(245, 245, 219, 0.3);
+    color: navy;
+    font: larger;
+}
+
+.LoginField {
+    padding: 20px 0px;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    line-height: 5px;
+    background-color: rgb(245, 245, 219, 0.3);
+    font-family: 'Courier New', Courier, monospace;
+    color: navy;
+    font: larger;
+}
+
+.LoginInput {
+    border: navy;
+    padding: 10px;
+    padding-left: 24px;
+    font-weight: 500;
+    width: 75%;
+    background-color: rgb(245, 245, 219, 0.3);
+    font-family: 'Courier New', Courier, monospace;
+    color: navy;
+    font: larger;
+}
+
+.ButtonLoginSubmit {
+    font-family: 'Courier New', Courier, monospace;
+    color: navy;
+    background-color: rgb(245, 245, 219, 0.3);
+    border: navy;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.checkbox {
+    background-color: rgb(245, 245, 219, 0.3);
+    padding-top: 10px;
+    font: small;
+}

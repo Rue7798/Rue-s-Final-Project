@@ -1,0 +1,94 @@
+/* .courses {
+    background-image: url('/public/coursepage.JPED.jpg');
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(228, 228, 209, 0.9);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 245, 219, 0.9);
+    list-style: none;
+
+
+
+}
+
+.courses img {
+    background-color: rgb(245, 245, 219, 0.9);
+    width: 300px;
+    height: 300px;
+    display: flex;
+
+
+}
+
+.card {
+    font-size: larger;
+    list-style: none;
+
+
+}
+
+.coursename {
+    background-color: rgb(245, 245, 219, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: navy;
+}
+
+
+.Coursecards div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+
+} */
+
+
+.Coursescard {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px rgb(233, 214, 152) solid;
+    color: navy;
+
+
+
+}
+
+.Coursescard img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+
+}
+
+.Coursescard li {
+    list-style: none;
+}
+
+.courses {
+    width: 100%;
+}
+
+
+.courses div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}

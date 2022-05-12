@@ -1,0 +1,33 @@
+.productscard {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 245, 219, 0.9);
+
+}
+
+.productscard img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+
+}
+
+.productscard li {
+    list-style: none;
+}
+
+.products {
+    width: 100%;
+}
+
+
+.products div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
